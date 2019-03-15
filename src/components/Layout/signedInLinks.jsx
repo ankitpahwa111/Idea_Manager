@@ -5,7 +5,7 @@ const SignedInLinks = ()=>{
     return(
         <div>
             <ul className='right'>
-            <li><NavLink to='/'>Create New Post</NavLink></li>
+            <li><NavLink to='/create'>New Post</NavLink></li>
             <li><NavLink to='/'>Sign Out</NavLink></li>
             <li><NavLink to='/' className='btn btn-floating pink lighten-3'>AP</NavLink></li>
             

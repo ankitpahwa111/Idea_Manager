@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Notification from './notification';
 import ProjectList from '../Projects/ProjectList';
 class Dashboard extends Component {
+    state={}
     render() {
         return (
             <div className="dashboard container">
