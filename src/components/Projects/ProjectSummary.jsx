@@ -2,7 +2,7 @@ import React from 'react';
 import moment from 'moment';
 
 const ProjectSummary = (props) => {
-    
+    console.log(props)
     return (
       
             <div className="card z-depth-0 project-summary">

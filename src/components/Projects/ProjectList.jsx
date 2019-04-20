@@ -1,4 +1,3 @@
-
 import React from 'react'
 import ProjectSummary from './ProjectSummary';
 import { connect } from 'react-redux';
@@ -9,7 +8,7 @@ import {Redirect} from 'react-router-dom'
 const ProjectList = (props) => {
   const projects = props.projects;
   const auth = props.auth;
-  //console.log(props)
+  console.log(props)
   if(!auth.uid) return <Redirect to="/login"></Redirect>
   return (
     <div className="project-list section">

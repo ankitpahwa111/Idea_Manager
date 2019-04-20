@@ -3,7 +3,7 @@ import {NavLink } from 'react-router-dom';
 import {signOut} from '../../store/Actions/authActions';
 import {connect} from 'react-redux'
 const SignedInLinks = (props)=>{
-    console.log('here')
+    //console.log('here')
     const profile = props.profile;
     return(
         <div>
